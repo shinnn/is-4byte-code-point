@@ -1,0 +1,39 @@
+{
+  "name": "is-4byte-code-point",
+  "description": "Check if a given number is a code point of UTF-8 4-byte character",
+  "keywords": [
+    "byte",
+    "check",
+    "string",
+    "char",
+    "character",
+    "code",
+    "point",
+    "code-point",
+    "count",
+    "number"
+  ],
+  "main": "browser.js",
+  "moduleType": "globals",
+  "homepage": "https://github.com/shinnn/is-4byte-code-point",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shinnn/is-4byte-code-point.git"
+  },
+  "authors": [
+    "Shinnosuke Watanabe (https://github.com/shinnn)"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "max-code-point": "^1.0.0",
+    "min-4byte-code-point": "^1.0.0"
+  },
+  "ignore": [
+    "**/.*",
+    "*.js",
+    "*.json",
+    "*.yml",
+    "coverage",
+    "node_modules"
+  ]
+}
